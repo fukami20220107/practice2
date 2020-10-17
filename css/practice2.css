@@ -1,0 +1,213 @@
+body{
+	font-family: cursive;
+}
+
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 96px;
+	margin-top: -96px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #0099CC;
+	color: #fff;
+	font-size: 16px;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+.header-left img{
+	height: 80px;
+	width: 80px;
+}
+
+.header-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.header-center li {
+	margin-right: 50px;
+}
+
+.header-center li:last-child {
+	font-size: 15px;
+	line-height: 120%;
+    margin-right: 0;
+}
+
+/*mainここから*/
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/sea.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 96px;/*fixed調整*/
+	color: white;
+	font-family: cursive;
+	font-size: 40px;
+}
+
+.sbtitle img{
+	margin-top: 24px;
+}
+
+/*mainここまで*/
+.sec-text h1{
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.plan-img{
+	display: flex;
+	justify-content: space-around;
+}
+
+.plan-img img{
+	height: 300px;
+	width: 300px;
+}
+
+.plan-img li{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.plan-img span{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+
+.btn-guide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 280px;
+	height: 60px;
+	background-color: rgba(45,87,224,0.8);
+	font-family: cursive;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	margin-bottom: 80px;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.btn-guide:hover {
+	background-color: #3399CC;
+}
+
+/*アサイドここから*/
+
+aside {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height:600px;
+}
+
+form h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3fa8a8;
+	width: 700px;
+	height: 100px;
+	font-family: cursive;
+	font-size: 27px;
+	font-weight: normal;
+	color: #fff;
+	margin: 40px 0 40px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+.mail {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 700px;
+	height: 300px;
+}
+
+.form-name {
+	display: flex;
+	width: 420px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.form-name input {
+	width: 200px;
+	height: 40px;
+	box-sizing: border-box;
+}
+
+.form-name fieldset {
+	margin-right: 20px;
+}
+
+.form-name fieldset:last-child {
+	margin-right: 0;
+}
+
+.mailad {
+	width: 420px;
+	height: 40px;
+	box-sizing: border-box;
+}
+
+fieldset {
+	margin-bottom: 20px;
+}
+
+textarea {
+	width: 420px;
+	height: 100px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+/*footerここから*/
+ footer{
+ 	display: flex;
+ 	height: 50px;
+ 	background-color: #0099CC;
+ 	justify-content: center;
+ 	width: 100%;
+ 	align-items: center;
+ 	color: #fff;
+ }
+/*
+ footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #997322;
+	color: #fff;
+	font-size: 14px;
+	width: 100%;
+	height: 50px;
+	margin-top: 80px;
+}*/
